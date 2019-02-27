@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Intuit Accounts - Sign Up</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
-</head>
-<body>
-    <div class="container">
-    <div class="desktop-navbar">
-        <div class="blank-navbar"></div>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+  </head>
+  <body>
+      <div class="desktop-navbar">
         <div class="content-navbar">
-            <!-- <div style="width: 59.4%;"> -->
-                <div>
-                <span> Already have an Intuit account?</span><br>
-                <span class="navbar-link">
-                   <a href="#">I forgot my User ID or Password</a>
-                </span>
-            </div>
-            <!-- </div> -->
-            <!-- <div style="width: 39.4%;"> -->
-                <button class="navbar-button">
-                    <span class="white-lock-img"> 
-
-                    </span>
-                    <span>
-
-                            Sign In
-                
-                    </span>
-                </button>
-            <!-- </div> -->
+          <div>
+            <span>Already have an Intuit account?</span><br />
+            <span class="navbar-link">
+              <a href="#">I forgot my User ID or Password</a>
+            </span>
+          </div>
+          <button class="navbar-button">
+            <span class="white-lock-img"></span>
+            <span>
+              Sign In
+            </span>
+          </button>
         </div>
-    </div> 
+      </div>
+      <div class="container">
+        <div class="logos">
+          <img src="images/intuit.png" alt="intuit">
+        </div>
+        <div class="form-container">
+          <div class="title">One Account.<br />Everything Intuit.</div>
+          <div class="subtitle">Create an account for all of Intuit's products including Mint. Learn more</div>
+          <form action="" class="form">
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email">
+            <label for="tel">Phone (recommended)</label>
+            <input type="tel" name="tel" id="tel">
+            <span class="small">Standard call, messaging or data rates may apply.</span>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <button type="submit"><span class="white-lock-img"></span>Create Account</button>
+          </form>
+          <span class="small">By clicking Create Account, you agree to our
+          License Agreement and have read and acknowledge our Privacy Statement.</span>
+          <div class="policy">Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
